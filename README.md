@@ -11,7 +11,7 @@ playlist's songs and tags recommendation
 3. re-ranking과 denoising의 중요성을 매우 인지하고있어서 마지막에 특히 reranking에 초점을 맞춰 여러 방법을 시도했다.
 나는 완전 실험맨이었다....   
 
-<여러 실험 내역>   
+## <여러 실험 내역>   
 1) xgboost rank:pairwise, 점수 count 앙상블로 여러 result의 reranking시도  
 > but xgboost ranking 알고리즘은 단기간에 이해하기 어려웠다;;; x,y에 대체 뭘 넣는지 감조차 오지 않았다... 미래의 내가 시도해줬으면
 > count 앙상블을 전날까지 시도했는데 성능이 조금 올랐지만, 최고성능 앙상블에는 떨어졌다 ... 조금만 더 일찍 시도했다면...  
@@ -24,7 +24,7 @@ playlist's songs and tags recommendation
 
 그래도 이것저것 시도도 해보고 나름 코드도 짜보고 오빠들이랑 친해지고 매우 즐거운 시간이었다
 
-<아쉬운 점>
+## <아쉬운 점>
 1. 오토인코더, vae계열 이해를 잘 못했다. 추천에서 AE계열 많이 쓰는거같은데 나중에 오토인코더계열도 완벽히 공부하고싶다
 2. gradient boosting 계열 ranking method를 이해하지 못했다. 이것도 꽤 유용하게 쓰는거같은데 ... 나중에 꼭 이해해보고싶다
 3. k 앙상블할 시간이 부족했다.
